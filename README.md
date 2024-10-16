@@ -63,6 +63,8 @@ Para instalar Docker vamos a utilizar los siguientes comandos:
 
   Resultado: 
 
+  ![Resultado de la instalación de Docker](Images_Docker/01_Resultado_Instalacion.png)
+  
 ## 1.2 Descarga de la imagen "Alpine"
 
 Para instalar la imagen de alpine utilizamos el siguiente comando:
@@ -74,12 +76,16 @@ Para instalar la imagen de alpine utilizamos el siguiente comando:
 
   Resultado:
 
+  ![Resultado de descarga de Alpine](Images_Docker/02_Resultado_Descarga_Alpine.png)
+
   **sudo docker images**
 
   > [!IMPORTANT]
   > Este comando se encarga de mostrar las imágenes que contiene Docker
 
   Resultado:
+
+  ![Resultado de la muestra de imágenes en el docker](Images_Docker/03_Resultado_Ver_Imagenes.png)
 
 # 2. Administración de datos
 
@@ -95,6 +101,10 @@ Para crear un contenedor sin nombre utilizamos los siguientes comandos:
   > [!IMPORTANT]
   > Este comando se encarga de crear un contenedor sin nombre
 
+  Resultado:
+
+  ![Resultado de crear un contenedor](Images_Docker/04_Resultado_Crear_Contenedor.png)
+
   **sudo docker start (Nombre Contenedor)**
 
   > [!IMPORTANT]
@@ -109,8 +119,6 @@ Para ver los datos de los contenedores utilizamos el siguiente comando:
   > [!IMPORTANT]
   > Este comando se encarga de mostrar todos los contenedores
 
-  Resultado:
-
 ## 2.3 Comprobar estado del contenedor
 
   Para ver el estado de los contenedores utilizamos el siguiente comando:
@@ -121,6 +129,8 @@ Para ver los datos de los contenedores utilizamos el siguiente comando:
   > Este comando se encarga de mostrar el estado de todos los contenedores
 
   Resultado:
+
+  ![Resultado de la muestra de los contenedores](Images_Docker/05_Resultado_Mostrar_Contenedor.png)
 
 # 3. Conexión con contenedores
 
@@ -160,6 +170,8 @@ Para conectar un contenedor con google utilizamos los siguientes comandos:
 
   Resultado:
 
+  ![Resultado del ping con google](Images_Docker/06_Resultado_Ping.png)
+
 ## 3.3 Crear un segundo contenedor con nombre
 
 Al igual que en apartados anteriores el comando es:
@@ -188,11 +200,12 @@ Para conectar ambos contenedores creados anteriormente usamos los siguientes com
 
   Resultado:
 
+  ![Resultado del ping con el otro contenedor](Images_Docker/07_Resultado_Ping_Contenedor.png)
+
 # 4. Parámetros del contenedor
 
 > [!NOTE]
 > En este apartado trataremos los diferentes parámetros y datos del contenedor
-
 
 ## 4.1 Salir de la terminal y comprobar el contenedor
 
@@ -213,6 +226,8 @@ Para salir de la terminal y comprobar el estado del contenedor usamos los siguie
 
   Resultado:
 
+  ![Resultado de la salida de la consola](Images_Docker/08_Resultado_Salida_Consola.png)
+
 ## 4.2 Comprobar espacio ocupado en el disco duro
 
 Para comprobar el espacio utilizado en el disco duro utilizamos el siguiente comando:
@@ -224,6 +239,8 @@ Para comprobar el espacio utilizado en el disco duro utilizamos el siguiente com
 
   Resultado:
 
+  ![Resultado de ver el peso de los contenedores](Images_Docker/09_Resultado_Ver_Peso.png)
+
 ## 4.3 Comprobar memoria RAM utilizada
 
 Para comprobrar cuanta memoria RAM necesita el contenedor utilizamos el siguiente comando:
@@ -234,6 +251,11 @@ Para comprobrar cuanta memoria RAM necesita el contenedor utilizamos el siguient
   > Este comando se encarga de mostrar la cantidad de RAM que utiliza el contenedor
 
   Resultado:
+
+  ![Resultado de ver la RAM consumida](Images_Docker/10_Resultado_Ver_RAM.png)
+
+
+  
 
   
   
